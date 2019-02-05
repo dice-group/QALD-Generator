@@ -5,8 +5,8 @@ QALDGen is Question Answering Over Linked Data (QALD) Benchmarks generation fram
  
 
  ### Generating Benchmarks from CLI
-Download the folder [QALDGen-cli](https://hobbitdata.informatik.uni-leipzig.de/benchmarks-data/QALDGen-cli.zip) which contains a runable jar qaldgen.jar and a comtomized benchmark generation query file personalized-query.txt. Note the qaldgen requires the LSQ dataset endpoint URL to be provided as input. We have provided the Virtuoso 7.2 endpoints both for SWDF and DBpedia datasets which can be downloaded from [here](http://hobbitdata.informatik.uni-leipzig.de/qaldgen-lsq-endpoints/). The Windows virtuoso endpoint can be started from bin/start.bt while linux can be started from bin/start_virtuoso.sh.  
-From the folder run the following commands: 
+Download the folder [QALDGen-cli](https://hobbitdata.informatik.uni-leipzig.de/benchmarks-data/QALDGen-cli.zip) which contains a runable jar qaldgen.jar, comtomized benchmark generation query file personalized-query.txt, and a Windows-based virtuoso SPARQL endpoint. First start the virtuoso endpoint from bin/start.bt (for windows) and bin/start_virtuoso.sh (for linux, to be provided).  
+From the folder run the following commands to generate benchmarks of your choice: 
 ```html
 ### DBSCAN+Kmeans++ Format ### 
  java -jar qaldgen.jar -m <method> -n <noQuestions> -i <maxNoIterations> -t <noTrialRun> -e <endpointUrl> -q <queryPersonalized> -r <radius> -p <minPts> -o <outputFile>
@@ -55,6 +55,7 @@ outputFile = The output TTL file where the resulting benchmark will be printed
 
 ```
 ### Generating Benchmarks from Source 
+This section needs to be updated. 
 Download the source code from [here](https://github.com/AKSW/qaldgen/blob/master/qaldgen-src.7z). Unzip the folder which contains 4 -- Agglomerative, commons-math3, FEASIBLE, qaldgen -- java projects. qaldgen is the main project from where benchmarks can be generated. Note this project requires the other 3 project to be included in the build path. Also all the jar files in the lib folder of FEASIBLE and Agglomerative need to be added into the main project.
 ```
 //Generate KMeans++ benchmarks from 
