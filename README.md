@@ -62,19 +62,19 @@ package org.aksw.simba.sqcbench.centroid
 public class KmeansPlusPlus 
 
 //Generate DBSCAN+KMeans++ benchmarks from 
-package org.aksw.simba.sqcbench.hybrid
+package org.aksw.simba.qaldbench.hybrid
 public class DbscanAndKMeansPluPlus 
 
 //Generate FEASIBLE benchmarks from 
-package org.aksw.simba.qaldgen.feasible
+package org.aksw.simba.qaldbench.feasible
 public class FEASIBLEClustering 
 
 //Generate FEASIBLE-Exemplars benchmarks from 
-package org.aksw.simba.qaldgen.feasible
+package org.aksw.simba.qaldbench.feasible
 public class FeasibleExemplars
 
 //Generate Random selection benchmarks from 
-package org.aksw.simb.sqcbench.random
+package org.aksw.simb.qaldbench.random
 public class RandomSelection
 
 //You can also generate Agglomerative benchmarks from 
