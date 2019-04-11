@@ -7,7 +7,7 @@ QALDGen is Question Answering Over Linked Data (QALD) Benchmarks generation fram
 The RDF dataset of QA created for QALDGen can be downloaded from [here](https://github.com/dice-group/QALD-Generator/blob/master/QaldGen-RDF.zip) in .NT format. 
 
 ### Complete Results
-The complete results of our evaluation based on Gerbil framework (for QA benchmarking) is publicly available from [here](http://gerbil-qa.aksw.org/gerbil/experiment?id=201903190000). The Frankenstein results for for Named Entity Disambiguation (NED) and Relationship Linking (RL) is available from (here)[https://drive.google.com/drive/folders/1sdPX5zW1ELG3j0A6saGlLU1olFNZF1Yb). 
+The complete results of our evaluation based on Gerbil framework (for QA benchmarking) is publicly available from [here](http://gerbil-qa.aksw.org/gerbil/experiment?id=201903190000). The Frankenstein results for for Named Entity Disambiguation (NED) and Relationship Linking (RL) is available from [here](https://drive.google.com/drive/folders/1sdPX5zW1ELG3j0A6saGlLU1olFNZF1Yb). 
  
 
  ### Generating Benchmarks from CLI
