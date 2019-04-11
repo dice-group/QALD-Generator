@@ -3,8 +3,12 @@
 
 QALDGen is Question Answering Over Linked Data (QALD) Benchmarks generation framework which is able to generate customized QALD benchmarks . The framework is flexible enough to generate benchmarks of varying sizes and according to the user-defined criteria on the most important QA features to be considered for Question Answering benchmarking. The generation of benchmarks is achieved by selecting prototypical queries (of a user-defined size and specialized selection criteria) using different clustering algorithms. 
  
-  ### QALDGen RDF Dataset
-  The RDF dataset of QA created for QALDGen can be downloaded from [here](https://github.com/dice-group/QALD-Generator/blob/master/QaldGen-RDF.zip) in .NT format. 
+### QALDGen RDF Dataset
+The RDF dataset of QA created for QALDGen can be downloaded from [here](https://github.com/dice-group/QALD-Generator/blob/master/QaldGen-RDF.zip) in .NT format. 
+
+### Complete Results
+The complete results of our evaluation based on Gerbil framework is publicly available from [here](http://gerbil-qa.aksw.org/gerbil/experiment?id=201903190000)
+ 
 
  ### Generating Benchmarks from CLI
 Download the folder [QALDGen-cli](https://hobbitdata.informatik.uni-leipzig.de/benchmarks-data/QALDGen-cli.zip) which contains a runable jar qaldgen.jar, comtomized benchmark generation query file personalized-query.txt, and a Windows-based virtuoso SPARQL endpoint. First start the virtuoso endpoint from bin/start.bt (for windows) and bin/start_virtuoso.sh (for linux, to be provided).  
