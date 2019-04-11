@@ -1,8 +1,10 @@
 ## QALDGen: Question Answering Over Linked Data Benchmark Generator
 
-
 QALDGen is Question Answering Over Linked Data (QALD) Benchmarks generation framework which is able to generate customized QALD benchmarks . The framework is flexible enough to generate benchmarks of varying sizes and according to the user-defined criteria on the most important QA features to be considered for Question Answering benchmarking. The generation of benchmarks is achieved by selecting prototypical queries (of a user-defined size and specialized selection criteria) using different clustering algorithms. 
- 
+
+### Generating Benchmarks from Source 
+Due to large size of the source code, we have made the code externally from [here](https://hobbitdata.informatik.uni-leipzig.de/benchmarks-data/QALDGen-cli.zip). Unzip the folder which contains 4 -- Agglomerative, commons-math3, FEASIBLE, QALDBench-Generator -- java projects. QALDBench-Generator is the main project from where benchmarks can be generated. Note this project requires the other 3 project to be included in the build path. Also all the jar files in the lib folder of FEASIBLE and Agglomerative need to be added into the main project.
+
 ### QALDGen RDF Dataset
 The RDF dataset of QA created for QALDGen can be downloaded from [here](https://github.com/dice-group/QALD-Generator/blob/master/QaldGen-RDF.zip) in .NT format. 
 
