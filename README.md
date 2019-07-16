@@ -94,5 +94,5 @@ However, Agglomerative clustering does not allow to generate fix number of clust
   * [Muhammad Saleem](https://sites.google.com/site/saleemsweb/) (AKSW, University of Leipzig) 
   * [Kuldeep Singh](https://oyekuldeep.wordpress.com/) (Fraunhofer IAIS, Germany)
   * [Axel-Cyrille Ngonga Ngomo](http://aksw.org/AxelNgonga.html) (AKSW, University of Leipzig)
-   * [Abhishek Nadgeri]() ()
+  * [Abhishek Nadgeri](https://nadgeri14.github.io/) (DA-IICT,India)
 
