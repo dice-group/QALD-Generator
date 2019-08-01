@@ -66,27 +66,27 @@ outputFile = The output TTL file where the resulting benchmark will be printed
 Download the source code from [here](https://hobbitdata.informatik.uni-leipzig.de/benchmarks-data/QALDGen-Source.7z). Unzip the folder which contains 4 -- Agglomerative, commons-math3, FEASIBLE, QALDBench-Generator -- java projects. QALDBench-Generator is the main project from where benchmarks can be generated. Note this project requires the other 3 project to be included in the build path. Also all the jar files in the lib folder of FEASIBLE and Agglomerative need to be added into the main project.
 ```
 //Generate KMeans++ benchmarks from 
-package org.aksw.simba.sparqlbench.centroid;
+package org.aksw.simba.qladgen.centroid;
 public class KmeansPlusPlus 
 
 //Generate DBSCAN+KMeans++ benchmarks from 
-package org.aksw.simba.sparqlbench.hybrid
+package org.aksw.simba.qladgen.hybrid
 public class DbscanAndKMeansPluPlus 
 
 //Generate FEASIBLE benchmarks from 
-package org.aksw.simba.sparqlbench.feasible
+package org.aksw.simba.qladgen.feasible
 public class FEASIBLEClustering 
 
 //Generate FEASIBLE-Exemplars benchmarks from 
-package org.aksw.simba.sparqlbench.feasible
+package org.aksw.simba.qladgen.feasible
 public class FeasibleExemplars
 
 //Generate Random selection benchmarks from 
-package org.aksw.simb.sparqlbench.random
+package org.aksw.simb.qladgen.random
 public class RandomSelection
 
 //You can also generate Agglomerative benchmarks from 
-package org.aksw.simba.sparqlbench.hierarchical
+package org.aksw.simba.qladgen.hierarchical
 public class Agglomerative
 However, Agglomerative clustering does not allow to generate fix number of clusters
 ```
